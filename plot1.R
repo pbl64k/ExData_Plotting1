@@ -1,6 +1,6 @@
 # Assumes household_power_consumption.txt is in the working directory
 
-#epc <- read.table('./household_power_consumption.txt', sep = ';', header = T)
+epc <- read.table('./household_power_consumption.txt', sep = ';', header = T)
 
 epc <- epc[epc$Date == '1/2/2007' | epc$Date == '2/2/2007',]
 
